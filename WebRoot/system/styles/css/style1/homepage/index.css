@@ -1,0 +1,37 @@
+.page_top{
+	height:60px;
+	width:100%;
+	border-bottom: #CCC 1px solid;
+}
+.page_logo{
+	margin-left:20px;
+	margin-top:10px;
+	width:48px;
+	height:48px;
+	float:left;
+}
+.logo_name{
+	width:100px;
+	height:48px;
+	line-height:72px;
+	font-size:22px;
+	float:left;
+	margin-top:10px;
+	margin-left:15px;
+	color:#54abe4;
+	font-weight:bolder;
+}
+.page_main{
+	width:100%;
+}
+.main_left{
+	width:50%;
+	float:left;
+}
+.main_left table tr td{
+	text-align: center;
+}
+.main_right{
+	width:50%;
+	float:left;
+}

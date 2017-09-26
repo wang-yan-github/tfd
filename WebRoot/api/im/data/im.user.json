@@ -1,0 +1,21 @@
+{
+	"zhangsan":{
+		id:"zhangsan",
+		name:"张三",
+		sex:"男",
+		headImg:"",
+		key:"",
+		mid:"",
+		defined:"",
+		inDialog:false,
+		unread:{
+			alert:,
+			msgs:[],
+			status:unread-loaded|have-read|unread-not-loaded
+		},
+		history:{
+			msgId:"",
+			msgs:[msg]
+		}
+	}
+}

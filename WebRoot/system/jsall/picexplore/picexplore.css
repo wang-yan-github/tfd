@@ -1,0 +1,17 @@
+.picexplore_panel{
+	position:absolute;
+	left:0px;
+	top:0px;
+	width:0px;
+	overflow:hidden;
+	background-image:url(shadow.png);
+}
+.picexplore_img{
+	position:absolute;
+	left:0px;
+	top:0px;
+	cursor:url(grabhand.cur), move;
+	-moz-box-shadow: 0 0 10px white;
+	-webkit-box-shadow:0 0 10px white;
+	box-shadow:0 0 10px white;
+}

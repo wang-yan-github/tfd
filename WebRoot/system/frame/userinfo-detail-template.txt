@@ -1,0 +1,19 @@
+<div id="userinfo-detail">
+	<div class="attr-row">
+		<span attr="sexImg"></span>
+		<span attr="userName"></span>
+	</div>
+	<div class="attr-row">
+		<span attr="deptName-userPriv"></span>
+	</div>
+	<div class="hr"></div>
+	<div class="attr-row">
+		<span class="label">Tel</span>:<span attr="mobileNo"></span>
+	</div>
+	<div class="attr-row">
+		<span class="label">QQ</span>:<span attr="qQ"></span>
+	</div>
+	<div class="attr-row">
+		<span class="label">E-mail</span>:<span attr="eMaile"></span>
+	</div>
+</div>

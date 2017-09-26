@@ -1,0 +1,87 @@
+.top_info {
+  height: 50px;
+  margin: 0 auto;
+  border-bottom: 3px solid #3f9bca;
+}
+
+.top_info_left{
+    height:50px;
+    float:left;
+	margin-left:10px;
+}
+
+.top_info_right {
+  margin-right: 10px;
+  margin-top: 10px;
+  float: right;
+}
+
+.icontop-basic_hover {
+  display: block;
+  width: 300px;
+  line-height: 50px;
+  padding-left: 30px;
+  /*background: url(dept.png) no-repeat;*/
+  background-position: 0px 10px;
+}
+
+.title_name {
+  line-height: 50px;
+  font-weight: 900;
+  font-weight: bold;
+  font-size: 24px;
+  margin-left: 5px;
+  color: #3f9bca;
+  float: left;
+}
+
+.bg-darkorange {
+    background-color: #ed4e2a !important;
+}
+
+.widget-header[class*="bg-"] {
+    border: 0 none;
+}
+.widget-header {
+    background: #fff none repeat scroll 0 0;
+    box-shadow: 0 0 4px rgba(0, 0, 0, 0.3);
+    color: #555;
+    min-height: 35px;
+    padding-left: 12px;
+    position: relative;
+    text-align: right;
+}
+.bg-blueberry {
+    background-color: #6f85bf !important;
+}
+
+.bg-palegreen {
+    background-color: #a0d468 !important;
+}
+.widget-header > .widget-caption {
+    float: left;
+    font-size: 13px;
+    font-weight: 400 !important;
+    line-height: 34px;
+    margin: 0;
+    padding: 0;
+    text-align: left;
+}
+
+.widget-header[class*="bg-"] .widget-caption, .widget-header[class*="bg-"] i {
+    color: #fff;
+}
+ 
+#customer_info tr td{
+	padding: 10px;
+	height:51px;
+}
+#btnitem{
+	float: right;
+	margin-top:6px;
+	margin-right: 20px; 
+	display: none;
+}
+#searchform{
+	display: none;
+}

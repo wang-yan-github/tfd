@@ -1,0 +1,9 @@
+.newtop {
+  border-bottom: 3px solid #3f9bca;
+  position: relative;
+}
+
+.newright {
+  border-bottom: 3px solid #3f9bca;
+  float:right;
+}

@@ -1,0 +1,169 @@
+html, body {
+    margin: 0px;
+    padding: 0px;
+    width: 100%;
+    height: 100%;
+}
+html {
+    overflow: hidden;
+}
+
+.body {
+    width: 100%;
+    height: 100%;
+    position: relative;
+    overflow: hidden;
+}
+
+
+.body .tab{width:280px;display:table;}
+.menu-left, .menu-right {
+    width: 50%;
+    height: 40px;
+    line-height: 40px;
+    display:table-cell;
+    background-color: #F5F5F5;
+    cursor: pointer;
+    border-bottom: #CCC 1px solid;
+    text-align: center;
+}
+.menu-left:HOVER, .menu-right:HOVER {
+    background-color: #FFF;
+}
+.menu-left {
+    border-right: #CCC 1px solid;
+}
+
+
+.menu-body, .short-menu {
+	border-top:#CCC 1px solid;
+    width: 100%;
+    position: absolute;
+    top: 40px;
+    bottom: 0px;left:0px;
+    overflow: hidden;
+    background-color: #F5F5F5;
+}
+ .short-menu{display:none;}
+.body .content {
+    height: 100%;
+	position:absolute;
+    left:0px;right:-20px;
+    overflow-x:hidden;
+    overflow-y: auto;
+}
+
+.menu_list {
+    width: 280px;
+    line-height: 56px;
+    background-color: #F5F5F5;
+}
+
+.menu_li {
+    width: 280px;
+    line-height: 56px;
+    border-bottom: #CCC 1px solid;
+    cursor: pointer;
+    height: 56px;
+    font-size: 14px;
+}
+
+.menu_icon {
+    height: 56px;
+    width: 60px;
+    float: left;
+    text-align: center;
+}
+
+.menu_str{
+	float:left;
+	width:220px;
+	height:56px;
+}
+
+.menu_name {
+    height: 28px;
+    width: 220px;
+    line-height:35px;
+    font-size:13px;
+    color:#000;
+}
+
+.menu_sign{
+	height: 28px;
+    width: 220px;
+    line-height:28px;
+    font-size:13px;
+    color:#7F7F7F;
+}
+
+.menu_child {
+    width: 280px;
+    display: none;
+}
+
+.menu_list2 {
+    width: 280px;
+    line-height: 35px;
+}
+
+.menu_li2 {
+    width: 280px;
+    line-height: 35px;
+    border-bottom: #CCC 1px solid;
+    cursor: pointer;
+    height: 35px;
+    font-size: 12px;
+    background-color: #F1F7FD;
+}
+
+.menu_li2:HOVER {
+    background-color: #B8D6FB;
+}
+
+.menu_icon2 {
+    height: 35px;
+    width: 60px;
+    float: left;
+}
+
+.menu_name2 {
+    height: 35px;
+    width: 140px;
+    float: left;
+}
+
+.menu_li3 {
+    width: 280px;
+    line-height: 30px;
+    border-bottom: #CCC 1px solid;
+    cursor: pointer;
+    height: 30px;
+    font-size: 11px;
+    background-color: #F8F8FF;
+}
+
+.menu_li3:HOVER {
+    background-color: #CBE1FC;
+}
+
+.menu_icon3 {
+    height: 30px;
+    width: 60px;
+    float: left;
+}
+
+.menu_name3 {
+    height: 30px;
+    width: 140px;
+    float: left;
+}
+
+.moveli{
+	background-color: #FCF0C1;
+}
+
+.clickli{
+	background-color: #FDECAB;
+}
+

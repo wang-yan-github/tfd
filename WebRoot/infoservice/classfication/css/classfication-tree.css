@@ -1,0 +1,10 @@
+.classfication-tree{margin:0px;padding:0px;list-style: none;margin-top:10px;}
+.classfication-tree ul{margin:0px;padding:0px;list-style:none;}
+.classfication-tree li a{
+	width:100%;height:30px;line-height:30px;display:inline-block;border-bottom:solid 1px #ccc;
+	cursor:pointer;text-decoration:none;
+}
+.classfication-tree li a .tree-node-opt-bar{float:right;}
+.classfication-tree li a:hover{background-color:#f2f2f2;}
+
+.classfication-tree li a.curSelectedNode {background-color:#f2f2f2;}

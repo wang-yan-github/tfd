@@ -1,0 +1,54 @@
+{
+	"status_code": "200",
+    "msg": "请求成功",
+    "data":{
+    	"time":1449652239,//时间戳
+    	"data":{
+    	 	“basic”:{//流程基本信息
+				“intRunId”:”数字流水号”, //UI上显示
+				“workTitle”:”流程标题”,//UI上展示
+				"beginTime":"发起时间",//UI上展示
+    	 	},
+			"formItem":[ //表单控件结构
+			    {
+					"id":"表单控件id ",
+					"title":"控件标题",
+					"xtype":"控件类型",//见备注1
+					"model":,//见备注1
+					“data”:,// 表单控件数据，见备注1
+					“writable”:true|false//是否可写
+				}
+			],
+			"idea":{//意见操作区域				
+				“idea”:”意见，0|1 |2//不同意|同意|基本同意”,
+				“ideaText”:”意见内容”
+			},
+			“approveProcess”:[//工作流审批数据
+				{
+					“runPrcsId”:”流程实际步骤号”,
+					”prcsName”:”步骤名称”,
+					“opUser”:”办理人”,
+					“opUserHeadImg”:”办理人头像附件id”,
+					“opType”:”办理方式，如主办、经办等”,
+					“arriveTime”:”工作到达时间，如2015-11-11 08:00”,
+					“endTime”:”工作办理结束时间，如2015-11-11 08:00”,
+					“idea”:”意见，0|1|2//不同意|同意|基本同意”,
+					“ideaText”:”意见内容”
+				}
+			],
+			"option":[
+				{
+					"type":"操作类型",//见备注3
+					"text":"操作名称"//见备注3
+				}
+			],
+			"other":{
+				"runId":"流水号",//提交时使用 
+				“flowId”:”流程类型id”,
+				“runPrcsId”:”流程实际步骤号”,
+				“prcsId”:”流程设计步骤号”
+			}
+    	 	
+		}
+    }
+}

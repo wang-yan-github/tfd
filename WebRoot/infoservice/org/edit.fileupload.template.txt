@@ -1,0 +1,18 @@
+<div>附件:</div>
+<div id="#attach#Div" name="#attach#Div"></div>
+
+<div>附件选择:</div>
+<div style="display: none;" class="fieldset flash" id="fsUploadProgress"></div>
+<div style="display: none;" id="divStatus"></div>
+<div>
+	<a class="addfile"  href="javascript:void(0)">单附件
+	<input type="file" onchange="fileUpLoad('#module#','#attach#');" hidefocus="true" size="1" id="file#attach#" name="file#attach#" class="addfile"></a>
+	<input type="hidden" id="#attach#Id" name="#attach#Id"/>
+	<a class="add_swfupload" href="javascript:void(0)">
+		多附件
+		<span id="#attach#"></span>
+	</a>
+	<div style="display: none;">
+		<a href="#"  id="btnCancel" onclick="swfu.cancelQueue();" disabled="disabled">取消上传</a>
+	</div>
+</div>

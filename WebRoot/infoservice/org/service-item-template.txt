@@ -1,0 +1,63 @@
+<div class="infoserviceServiceItem panel-form-edit" value="#infoserviceServiceItem-#-form" id="infoserviceServiceItem-#">
+	<div class="item-delete-popover" value="infoserviceServiceItem-#"></div>
+	<div class="form-screen" value="#infoserviceServiceItem-#-form">
+		<div class="top-bar">
+			<span class="service-item-i">第<span class='i'>1</span>项</span>
+			<button class="form-edit btn btn-primary" value="#infoserviceServiceItem-#-form">
+				<span class="glyphicon glyphicon-pencil"></span>
+				编辑
+			</button>
+		</div>
+		<div class="screen">
+			<span class="alert-text">点击编辑详情。。。</span>
+		</div>
+	</div>
+	<form class="form-horizontal infoserviceServiceItem-form" id="infoserviceServiceItem-#-form">
+		<input type="hidden" name="serviceId"/>
+		<div class="form-group">
+			<div class="col-xs-12">
+				<span class="service-item-i">第<span class='i'>1</span>项</span>
+				<button type="button" class="close service-item-remove" title="删除" value="infoserviceServiceItem-#">
+					<span>&times;</span>
+				</button>
+			</div>
+		</div>
+		<div class="form-group">
+			<label for="serviceName" class="col-xs-2 control-label">服务名称</label>
+			<div class="col-xs-8">
+				<input class="form-control" name="serviceName"/>
+			</div>
+		</div>
+		<div class="form-group">
+			<label for="serviceDesc" class="col-xs-2 control-label">服务描述</label>
+			<div class="col-xs-8">
+				<textarea name="serviceDesc"></textarea>
+			</div>
+		</div>
+		<div class="form-group">
+			<label for="servicePrice" class="col-xs-2 control-label">服务价格</label>
+			<div class="col-xs-8">
+				<div class="input-group">
+					<div class="input-group-addon">¥</div>
+					<input class="form-control" name="servicePrice"/>
+				</div>
+			</div>
+		</div>
+		<div class="form-group">
+			<label for="servicePriceHighest" class="col-xs-2 control-label">服务最高价</label>
+			<div class="col-xs-8">
+				<div class="input-group">
+					<div class="input-group-addon">¥</div>
+					<input class="form-control" name="servicePriceHighest"/>
+				</div>
+			</div>
+		</div>
+		<div class="form-group form-save-bar">
+			<div class="col-xs-12">
+				<button type="submit" class="btn btn-primary">保存</button>
+				&nbsp;&nbsp;
+				<button type="button" class="btn btn-primary form-slide" value="#infoserviceServiceItem-#-form">收起</button>
+			</div>
+		</div>
+	</form>
+</div>

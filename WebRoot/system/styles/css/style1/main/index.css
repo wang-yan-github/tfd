@@ -1,0 +1,63 @@
+.swfupload{
+   vertical-align: top;
+}
+.add_swfupload{
+   padding-left:18px; 
+   overflow:hidden;
+   position: relative;
+   background:url("uploads.png") no-repeat left center;
+   cursor:pointer;
+   width: 70px;
+   height:20px;
+   font-size: 12px;
+}
+
+
+a.add_swfupload .swfupload {
+    height: 100%;
+    left: 0;
+    opacity: 0;
+    position: absolute;
+    top: 0;
+    width: 100%;
+    z-index: 5;
+}
+
+
+a.addfile, a.selfile, a.addimage {
+    font-size: 12px;
+}
+
+a.addfile_drag, a.addfile, a.selfile, a.addimage, a.add_swfupload {
+    display: inline-block;
+    height: 20px;
+    line-height: 20px;
+    margin-right: 10px;
+    vertical-align: middle;
+}
+
+a.addfile {
+    background: rgba(0, 0, 0, 0) url("add.png") no-repeat scroll left center;
+    cursor: pointer;
+    overflow: hidden;
+    padding-left: 18px;
+    position: relative;
+    text-decoration: none;
+    width: 60px;
+}
+
+a.addfile, a.selfile, a.addimage, a.add_image_multi, a.add_swfupload {
+    color: #446eb9;
+    cursor: pointer;
+}
+
+input.addfile[type="file"], input.addfile {
+    cursor: pointer;
+    font-size: 20px;
+    height: 20px;
+    opacity: 0;
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 110px;
+}

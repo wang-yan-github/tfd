@@ -1,0 +1,76 @@
+/* 提示框样式 */
+.MessageBox{
+   margin:0px auto;
+}
+
+/* 表头 */
+.MessageBox .head-no-title td{
+   height:16px;
+}
+.MessageBox .head-no-title .left{
+   width:20px;
+   background:url('images/message_bg.png') left -96px no-repeat;
+}
+.MessageBox .head-no-title .center{
+   background:url('images/message_bg.png') 0px -112px repeat-x;
+}
+.MessageBox .head-no-title .right{
+   width:20px;
+   background:url('images/message_bg.png') right -96px no-repeat;
+}
+
+/* 表底 */
+.MessageBox .foot td{
+   height:16px;
+}
+.MessageBox .foot .left{
+   width:20px;
+   background:url('images/message_bg.png') left -64px no-repeat;
+}
+.MessageBox .foot .center{
+   background:url('images/message_bg.png') 0px -80px repeat-x;
+   position:relative;
+}
+.MessageBox .foot .center b{
+    position:absolute;
+    height:1px;
+    width:100%;
+    top:-1px;
+    background:#357ece;
+}
+.MessageBox .foot .right{
+   width:20px;
+   background:url('images/message_bg.png') right -64px no-repeat;
+}
+
+/* 提示框 */
+.MessageBox .msg td{
+   height:90px;
+}
+.MessageBox .msg .left{
+   width:20px;
+   background:url('images/message_center_bg.png') left top repeat-y;
+}
+.MessageBox .msg .center{
+   padding-left:90px;
+   font-size:16px;
+   background-color:#357ece;
+}
+.MessageBox .msg .center .msg-content{
+   color:#fff;
+   margin:20px 12px 20px 6px;
+}
+.MessageBox .msg .center .msg-content a{
+   color:#fff;
+   text-decoration:underline;
+}
+.MessageBox .msg .right{
+   width:20px;
+   background:url('images/message_center_bg.png') right top repeat-y;
+}
+.MessageBox .msg .info{
+   background-image:url("images/icon64_info.png");
+   background-position:0px 10px;
+   background-repeat:no-repeat;
+}
+

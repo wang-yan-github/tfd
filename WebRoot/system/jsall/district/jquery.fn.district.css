@@ -1,0 +1,13 @@
+
+.district{width:430px;}
+.district .district-level{
+	width:100%;height:25px;line-height:25px;font-weight:bold;
+	border-bottom:solid 1px #f2f2f2;margin-bottom:1px;
+}
+.district table td{text-align:center;}
+.district .district-name{padding:5px 5px;cursor:pointer;font-size:12px;}
+.district .district-name.district-name-uncheck:hover{background-color:#f2f2f2;}
+.district .district-name-checked{background-color:#337AB7;color:white;}
+
+.district-popover{position:absolute;z-index:30000;}
+.district-popover .popover{max-width:none !important;}

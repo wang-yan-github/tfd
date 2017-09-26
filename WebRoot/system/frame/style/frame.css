@@ -1,0 +1,222 @@
+.frame-top
+{
+	box-shadow: none;
+	border: 1px solid #ccc;
+	box-shadow: 0 0 4px rgba(0, 0, 0, 0.3);
+}
+
+.databox .databox-number {
+    display: block;
+    font-family: "Lucida Sans","trebuchet MS",Arial,Helvetica;
+    font-size: 17px;
+    font-weight: 700;
+    line-height: 26px;
+    margin: 2px;
+    position: relative;
+}
+.themethirdcolor {
+    color: #ffce55 !important;
+}
+
+.databox.radius-bordered .databox-right {
+    background-clip: padding-box;
+    border-radius: 0 3px 3px 0;
+}
+.databox .databox-right {
+    color: #555;
+    display: inline-block;
+    height: 65px;
+    margin: 0;
+    padding: 5px 10px;
+    position: relative;
+    vertical-align: top;
+    width: calc(100% - 65px);
+}
+
+.databox .databox-stat.radius-bordered {
+    background-clip: padding-box;
+    border-radius: 3px;
+}
+.databox .databox-stat {
+    display: inline-block;
+    padding: 2px 5px;
+    position: absolute;
+    right: 7px;
+    top: 7px;
+}
+.themethirdcolor {
+    color: #ffce55 !important;
+}
+
+.databox.radius-bordered .databox-right {
+    background-clip: padding-box;
+    border-radius: 0 3px 3px 0;
+}
+.databox .databox-right {
+    color: #555;
+    display: inline-block;
+    height: 65px;
+    margin: 0;
+    padding: 5px 10px;
+    position: relative;
+    vertical-align: top;
+    width: calc(100% - 65px);
+}
+.databox .databox-stat .stat-icon.icon-lg {
+    font-size: 16px;
+}
+.databox .databox-stat .stat-icon {
+    display: inline-block;
+    font-size: 13px;
+}
+.fa {
+    display: inline-block;
+    font-family: FontAwesome;
+    font-style: normal;
+    font-weight: normal;
+    line-height: 1;
+}
+
+.databox.radius-bordered .databox-left {
+    background-clip: padding-box;
+    border-radius: 3px 0 0 3px;
+}
+.databox .databox-left[class*="bg-"] {
+    color: #fff;
+}
+.databox .databox-left {
+    color: #2dc3e8;
+    display: inline-block;
+    height: 65px;
+    margin: 0;
+    padding: 10px;
+    position: relative;
+    text-align: center;
+    vertical-align: top;
+    width: 65px;
+}
+.bg-themethirdcolor {
+    background-color: #ffce55 !important;
+}
+
+.databox .databox-piechart {
+    display: inline-block;
+    font-size: 14px;
+    font-weight: 300;
+    margin: 0 auto;
+    padding-top: 0;
+    text-align: center;
+    vertical-align: bottom;
+    width: 100%;
+}
+.easyPieChart {
+    position: relative;
+    text-align: center;
+}
+
+.font-90 {
+    font-size: 90%;
+}
+.white {
+    color: #fff !important;
+}
+
+.easyPieChart canvas {
+    left: 0;
+    position: absolute;
+    top: 0;
+}
+audio, canvas, progress, video {
+    display: inline-block;
+    vertical-align: baseline;
+}
+
+.databox.databox-graded {
+    background-image: linear-gradient(to right, #ddd, #fff);
+}
+.databox.radius-bordered {
+    background-clip: padding-box;
+    border-radius: 3px;
+}
+.databox.databox-shadowed {
+    box-shadow: 0 0 3px rgba(0, 0, 0, 0.2);
+}
+.databox {
+    display: inline-block;
+    font-size: 0;
+    height: 65px;
+    margin-bottom: 30px;
+    min-width: 130px;
+    padding: 0;
+    vertical-align: top;
+    width: 100%;
+}
+
+.databox .databox-text {
+    display: block;
+    font-size: 11px;
+    margin: 4px 0 2px;
+    position: relative;
+}
+.darkgray {
+    color: #999 !important;
+}
+
+.databox.radius-bordered .databox-left {
+    background-clip: padding-box;
+    border-radius: 3px 0 0 3px;
+}
+.databox .databox-left[class*="bg-"] {
+    color: #fff;
+}
+.databox .databox-left {
+    color: #2dc3e8;
+    display: inline-block;
+    height: 65px;
+    margin: 0;
+    padding: 10px;
+    position: relative;
+    text-align: center;
+    vertical-align: top;
+    width: 65px;
+}
+.bg-themesecondary {
+    background-color: #fb6e52 !important;
+}
+
+.databox.radius-bordered .databox-left {
+    background-clip: padding-box;
+    border-radius: 3px 0 0 3px;
+}
+.databox .databox-left[class*="bg-"] {
+    color: #fff;
+}
+.databox .databox-left {
+    color: #2dc3e8;
+    display: inline-block;
+    height: 65px;
+    margin: 0;
+    padding: 10px;
+    position: relative;
+    text-align: center;
+    vertical-align: top;
+    width: 65px;
+}
+.bg-themeprimary {
+    background-color: #2dc3e8 !important;
+}
+
+.databox .databox-stat .stat-icon.icon-lg {
+    font-size: 16px;
+}
+.databox .databox-stat .stat-icon {
+    display: inline-block;
+    font-size: 13px;
+}
+.fa {
+    display: inline-block;
+    font-family: FontAwesome;
+    font-style: normal;
+    font-weight: normal;
+    line-height: 1;
+}

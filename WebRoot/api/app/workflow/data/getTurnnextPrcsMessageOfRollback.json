@@ -1,0 +1,52 @@
+{
+	"status_code": "200",
+    "msg": "请求成功",
+    "data":{
+		"time":1449652239,
+	    "data":[
+					{
+						"prcsId":"1", 
+						"prcsName":"步骤1",
+						"prcsRemindType":[
+							{"type":"1","typeDesc":"内部邮件"},
+							{"type":"2","typeDesc":"短信"},
+							{"type":"3","typeDesc":"微信"}
+						]
+					},
+					{
+						"prcsId":"2", 
+						"prcsName":"步骤2",
+						"prcsRemindType":[
+							{"type":"1","typeDesc":"内部邮件"},
+							{"type":"2","typeDesc":"短信"}
+						]
+					},
+					{
+						"prcsId":"3", 
+						"prcsName":"步骤3",
+						"prcsRemindType":[
+							{"type":"1","typeDesc":"内部邮件"},
+							{"type":"2","typeDesc":"短信"},
+							{"type":"3","typeDesc":"微信"},
+							{"type":"4","typeDesc":"内部短信"},
+							{"type":"5","typeDesc":"外部邮件"}
+							
+						]
+					},
+					{
+						"prcsId":"4", 
+						"prcsName":"步骤4",
+						"prcsRemindType":[
+							{"type":"1","typeDesc":"内部邮件"}
+						]
+					},
+					{
+						"prcsId":"5", 
+						"prcsName":"步骤5",
+						"prcsRemindType":[
+							{"type":"1","typeDesc":"内部邮件"}
+						]
+					}
+		] 
+    }
+}

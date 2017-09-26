@@ -1,0 +1,73 @@
+.tfd_tab_header {
+	background: none;
+	background-image: url(tb_header.png);
+	height: 35px;
+}
+
+.tee_tab {
+	border: 0px;
+	height: 38px;
+	width: 120px;
+	background: none;
+	background-repeat: repeat-x;
+	font-size: 12px;
+	float: left;
+	cursor: pointer;
+	line-height: 25px;
+	text-align: center;
+	padding: 0px;
+	margin-left: 5px;
+}
+
+.tee_tab:hover {
+	background: none;
+	background-image: url(tabs_bg_select.png);
+	background-repeat: repeat-x;
+	color: white;
+}
+
+.tee_tab_select {
+	background: none;
+	background-image: url(tabs_bg_select.png);
+	background-repeat: repeat-x;
+	color: white;
+}
+
+.tee_tab_pointer_left {
+	z-index: 100;
+	height: 28px;
+	width: 24px;
+	line-height: 30px;
+}
+
+.tee_tab_pointer_right {
+	z-index: 100;
+	height: 28px;
+	width: 24px;
+	line-height: 30px;
+}
+
+.attach_div {
+	width: 110px;
+	border: #cccccc 1px solid;
+	position: absolute;
+	padding: 0px;
+	z-index: 10001;
+	background: #FFFFFF;
+}
+
+.attach_div a {
+	display: block !important;
+	padding: 0px 10px;
+	height: 25px;
+	line-height: 25px;
+	text-decoration: none;
+	color: #393939;
+}
+
+.attach_div a:hover {
+	background: #5d99da;
+	color: #fff;
+	text-decoration: none;
+}
+

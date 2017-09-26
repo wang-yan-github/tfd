@@ -1,0 +1,52 @@
+.menuClass{height:25px;line-height:25px;text-align: center;cursor:pointer;font-size:13px;}
+.menuClass:hover{background-color:#83C1DE;color:#FFF;}
+.editmenu{height:auto;width:100px;display:none;position: absolute;background-color:#F5F5F5;border:solid 1px #CCC;z-index:999999;}
+.readmenu{height:auto;width:100px;display:none;position: absolute;background-color:#F5F5F5;border:solid 1px #CCC;z-index:999999;}
+#menuDiv a:hover{text-decoration: none;}
+
+
+
+.leftMenu{
+	width:160px;
+	height:100%;
+	float:left;
+	border-right:solid #CCC 1px;
+	background-color:#F5F5F5;
+}
+
+.menu-li{
+	width:100%;
+	height:40px;
+	line-height:40px;
+	text-align:center;
+	font-size:14px;
+	border-bottom:solid #CCC 1px;
+	cursor:pointer;
+}
+
+.menu-li:hover{
+	background-color:#FFF;
+}
+
+.rightBody{
+	width:438px;
+	height:100%;
+	float:right;
+	display:none;
+	overflow:auto;
+}
+
+#selected{
+	display:block;
+}
+
+.clicked{
+	background-color:#FFF;
+}
+
+.doSelect{
+	background-color:#F5F5F5 !important;
+}
+
+
+

@@ -1,0 +1,28 @@
+.widget-header.bordered-bottom {
+    border-bottom: 3px solid #fff;
+}
+.widget-header {
+    background: #fff none repeat scroll 0 0;
+    box-shadow: 0 0 4px rgba(0, 0, 0, 0.3);
+    color: #555;
+    min-height: 35px;
+    padding-left: 12px;
+    position: relative;
+    text-align: right;
+}
+.bordered-sky {
+    border-color: #11a9cc !important;
+}
+* {
+    box-sizing: border-box;
+}
+
+.widget-header > .widget-caption {
+    float: left;
+    font-size: 13px;
+    font-weight: 400 !important;
+    line-height: 34px;
+    margin: 0;
+    padding: 0;
+    text-align: left;
+}

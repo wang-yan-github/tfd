@@ -1,0 +1,87 @@
+.top_info {
+  height: 50px;
+  margin: 0 auto;
+  border-bottom: 3px solid #3f9bca;
+}
+
+.top_info_left{
+	width:250px;
+    height:50px;
+    float:left;
+	margin-left:10px;
+}
+
+.top_info_right {
+  margin-right: 10px;
+  margin-top: 10px;
+  float: right;
+}
+
+.icontop-basic_hover {
+  display: block;
+  width: 200px;
+  line-height: 50px;
+  padding-left: 30px;
+  background: url(dept.png) no-repeat;
+  background-position: 0px 10px;
+}
+
+.title_name {
+  line-height: 50px;
+  font-weight: 900;
+  font-weight: bold;
+  font-size: 24px;
+  margin-left: 5px;
+  color: #3f9bca;
+}
+
+.bg-darkorange {
+    background-color: #ed4e2a !important;
+}
+.bg-palegreen {
+    background-color: #a0d468 !important;
+}
+.well .header {
+    border-bottom: 1px solid #e5e5e5;
+    border-radius: 0px 0px 0 0;
+    left: 0;
+    padding: 10px;
+    position: absolute;
+    right: 0;
+    text-align: left;
+    top: 0;
+}
+
+.well .header[class*="bg-"] {
+    border-bottom: 0 none;
+    color: #fff;
+     box-shadow: 0 0 4px rgba(0, 0, 0, 0.3);
+}
+
+.well.with-footer {
+    padding-bottom: 0px;
+}
+.well.with-header {
+    padding-top: 40px;
+}
+.well {
+    background-clip: padding-box;
+    background-color: #fbfbfb;
+    border: 0 none;
+    border-radius: 2px;
+    box-shadow: 0 0 3px rgba(0, 0, 0, 0.2);
+    color: #262626;
+    margin-bottom: 30px;
+    min-height: 0;
+    position: relative;
+}
+.well {
+    background-color: #f5f5f5;
+    border: 1px solid #e3e3e3;
+    border-radius: 4px;
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.05) inset;
+    margin-bottom: 20px;
+    min-height: 20px;
+    padding: 0px;
+}
+

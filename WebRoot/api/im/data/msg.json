@@ -1,0 +1,7 @@
+{
+	fromId,
+	toId,
+	content,
+	time,
+	msgId
+}

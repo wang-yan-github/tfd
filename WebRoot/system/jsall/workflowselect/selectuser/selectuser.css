@@ -1,0 +1,80 @@
+.workflow-selectuser-dialog .modal-header{
+	padding-top:10px;padding-bottom:10px;
+}
+
+.workflow-selectuser-dialog .modal-body{
+	height:340px;position:relative;
+	padding:0px !important;
+}
+.workflow-selectuser-dialog .user-search-box{
+	text-align: center;
+	margin-top:10px;
+}
+.workflow-selectuser-dialog .list-box{
+	width:96%;
+	position:absolute;
+	top:50px;bottom:5px;
+	left:2%;
+}
+.workflow-selectuser-dialog .list-container{
+	width:31%;height:100%;
+	position:absolute;
+	top:0px;
+}
+.list-container-dept-list{left:2%;}
+.list-container-dept-user{left:34%;}
+.list-container-selected-user{left:66%;}
+
+
+.workflow-selectuser-dialog .list-title{
+	height:30px;line-height: 30px;
+	text-align: center;
+	background-color: #F7F8BD;
+	border: solid 1px #CCCCCC;
+	border-bottom: none;
+	border-top-left-radius:5px;
+	border-top-right-radius:5px;
+}
+.workflow-selectuser-dialog .list-content{
+	width:100%;
+	position:absolute;
+	top:30px;bottom:0px;
+	overflow-y:auto;
+	border: solid 1px #CCCCCC;
+}
+
+.workflow-selectuser-dialog .show-user{
+	position:relative;
+	margin-top:1px;
+	cursor:pointer;
+}
+.workflow-selectuser-dialog .show-user:hover,.show-user-selected{
+	background-color:#FFEBBF;
+}
+.workflow-selectuser-dialog .show-user-sponsor{
+	width:50px;text-align:center;
+	border-right:solid 1px black;
+	display:table-cell;
+	padding:2px 0px 2px 2px;
+}
+.workflow-selectuser-dialog .show-user-sponsor:hover,.show-user-sponsor-selected{
+	background-color:red;color:white;
+}
+
+.workflow-selectuser-dialog .show-user-name{
+	position:absolute;left:50px;right:0px;top:0px;
+	display:table-cell;
+	padding:2px 0px;
+}
+
+.workflow-selectuser-dialog .selected-user,.selected-sponsor-user{
+	margin-top:1px;padding:2px 0px;
+	text-indent:5px;
+	cursor:pointer;
+}
+.workflow-selectuser-dialog .selected-user:hover,.selected-sponsor-user:hover{
+	background-color:#FFEBBF;
+}
+.workflow-selectuser-dialog .selected-sponsor-user{color:red;}
+
+.tooltip{z-index:20000 !important;border:none !important;}

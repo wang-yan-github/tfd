@@ -1,0 +1,463 @@
+.input_100{
+    width: 80px !important;
+    height: 40px;
+    border: 1px solid #bfbfbf;
+    padding-left: 10px;
+
+}
+.test_box {
+    padding: 10px;
+    line-height: 24px;
+    background-color: white;
+    border-radius:5px;
+    width: 480px;
+    /*min-height: 120px;*/
+    max-height: 300px;
+    _height: 120px;
+    margin-left: auto;
+    margin-right: auto;
+    /*padding: 3px;*/
+    outline: 0;
+    border: 1px solid #bfbfbf;
+    font-size: 12px;
+    word-wrap: break-word;
+    overflow-x: hidden;
+    overflow-y: auto;
+    _overflow-y: visible;
+}
+.lai_neb{
+    width: 100%;
+}
+.input280{
+    width: 280px !important;
+}
+.input200{
+    width: 190px !important;
+}
+.input120{
+    width: 118px !important;
+}
+.input380{
+    width: 370px !important;
+}
+.input240{
+     width: 240px !important;
+ }
+.input150{
+    width: 170px !important;
+}
+.input140{
+    width: 153px !important;
+}
+.input400{
+    width: 384px !important;
+}
+.input80{
+    width: 60px !important;
+}
+.lai_ntim .laydate-icon{
+    background-color: white;
+    background: url(../laydate/skins/default/icon_01.png) no-repeat 157px !important;
+}
+.lai_ntim2 .laydate-icon{
+    background:#e5e5e5 url(../laydate/skins/default/icon_01.png) no-repeat 157px !important;
+}
+.lai_bg_grey{
+    background-color: #e5e5e5 !important;
+}
+.new_file-box{
+    width: 520px !important;
+}
+.new_file-box .txt{
+    width: 500px !important;
+}
+.new_file-box .file{
+    width: 500px !important;
+}
+.lai_new_sp {
+    background: none !important;
+    border: none !important;
+}
+.pad0{
+    padding: 0 !important;
+}
+.lai_select{
+    width: 180px;
+    height: 30px;
+    border: 1px solid #bfbfbf;
+    border-radius: 5px;
+}
+.lai_select2{
+    width: 180px;
+    height: 40px;
+    border: 1px solid #bfbfbf;
+    border-radius: 5px;
+}
+.liu_button_blue4{
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+    color: #ffffff;
+    background-color: #37ace2;
+    width: 100px;
+    height: 40px;
+    font-size: 16px;
+    border: 0px;
+}
+.liu_sp .liu_sp_box .liu_sp_table .liu_sp_table_public span{
+    margin-left: 8px;
+}
+.lai_button_view_details{
+    border: 0px solid #bfbfbf;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+    color: #ffffff;
+    background: url("images/liu_icon85.png") no-repeat;
+    background-position: 8px 11px;
+    width: 100px;
+    height: 40px;
+    background-color: #37ace2;
+    padding-left: 19px;
+}
+.lai_button_view_details2{
+    border: 0px solid #bfbfbf;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+    color: #ffffff;
+    background: url("images/lai_icon_31.png") no-repeat;
+    background-position: 8px 11px;
+    width: 100px;
+    height: 40px;
+    background-color: #ea5514;
+    padding-left: 19px;
+    margin-left: 10px;
+}
+.tg_btn1{
+    background-color: #37ade4;
+    position: relative;
+    top: -45px;
+    border-radius: 5px;
+    border: 0px solid #bfbfbf;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    color: #ffffff;
+    font-size: 14px;
+    width: 100px;
+    height: 40px;
+    margin-right: 10px;
+}
+.lai_bg_green{
+    background: #00a43d !important;
+}
+.lai_new_box{
+    width: 100% !important;
+    padding: 8px 0px !important;
+    background: none;
+}
+.eBlue4{
+    font-weight: bold;
+}
+.lai_sp_table_span{
+    width: auto !important;
+    margin:0 5px 0 20px !important;;
+}
+.liu_sp .liu_sp_box h4{
+    font-weight: bold;
+}
+.liu_advertising .liu_sp_table_public .liu_advertising_checked{
+    margin-right: 0 !important;
+}
+.lai_tab_sel td select{
+    margin: 3px 5px;
+    width: 90%;
+    border: 1px solid #e5e5e5;
+    height: 35px;
+    padding: 0 5px;
+}
+.lai_sp_table_05 .laydate-icon{
+    background: url(../laydate/skins/default/icon_01.png) no-repeat 130px;
+}
+.lai_time_inp{
+    border:1px solid #e5e5e5;
+    margin: 3px 5px;
+    padding-left: 5px;
+}
+.lERed{
+    line-height: 30px !important;
+}
+
+
+/*打印页岩*/
+.print_box{
+    width: 1024px;
+    margin:10px auto;
+    font-size: 14px;
+}
+.print_box h3{
+    line-height: 40px;
+    font-size: 16px;
+    text-align: center;
+}
+.print_bh{
+    margin-top: 10px;
+    overflow: hidden;
+}
+.print_bh table{
+    width: 100%;
+}
+.print_bh table td{
+    border: 1px solid #bfbfbf;
+    height: 30px;
+    padding: 5px;
+    line-height: 24px;
+}
+.lf{
+    float: left;
+}
+.rg{
+    float: right;
+}
+
+.lai_cp_tab{
+    margin: 5px 0;
+}
+.lai_cp_tab table{
+    width:100%
+}
+.lai_cp_tab table td{
+    height: 40px;
+    border: 1px solid #bfbfbf;
+    text-align: center;
+}
+.lai_fr_tr td{
+    font-weight: bold;
+}
+.lai_font_wei{
+    font-weight: bold;
+}
+.lai_daor_btn{
+     background: url("../css/images/lai_inner_btn.png") no-repeat;
+     width: 100px;
+     height: 30px;
+     background-position: 7px;
+     border: 0;
+     margin-left: 10px;
+     color: #37ade4;
+ }
+.lai_daor_btn2{
+    background: url("../css/images/lai_inner_btn2.png") no-repeat;
+    width: 80px;
+    text-align: right;
+    height: 30px;
+    background-position: 5px;
+    border: 0;
+    margin-left: 10px;
+    color: #37ade4;
+}
+.lai_tab2 th{
+    border: 1px solid #bfbfbf;
+    height: 30px;
+    font-weight: bold;
+    background-color: #eceff1;
+}
+.lai_by_title li{
+    width: 49.9% !important;
+}
+/*游戏发行*/
+
+.lai_yx_select{
+    border: 1px solid #bfbfbf;
+    border-radius: 5px;
+    height: 38px;
+    width: 100px;
+    padding: 0 10px;
+}
+.inner_wrap{
+    font-family:  宋体;
+    font-size: 14px;
+}
+/*点赞数导�?*/
+.lai_dz_btn1{
+    background-color:#37ace2;
+height: 30px !important;
+    width: 80px !important;
+    font-size: 14px !important;
+    line-height: 30px !important;
+    margin-right: 0px !important;
+    padding-top: 0px !important;
+    padding: 0 10px;
+    display: block;
+    float: left;
+    line-height: 30px;
+    margin-top: 20px;
+    cursor: pointer;
+    color: white;
+}
+.dz_left{
+    border-bottom-left-radius: 5px;
+    border-top-left-radius: 5px;
+    -moz-border-radius-topleft: 5px;
+}
+.dz_right{
+    border-bottom-right-radius: 5px;
+    border-top-right-radius: 5px;
+    -moz-border-radius-topleft: 5px;;
+}
+.lai_dz_btn2{
+    background-color:#bfbfbf ;
+    height: 30px !important;
+    width: 80px !important;
+    font-size: 14px !important;
+    line-height: 30px !important;
+    margin-right: 0px !important;
+    padding-top: 0px !important;
+    padding: 0 10px;
+    display: block;
+    float: left;
+    cursor: pointer;
+    line-height: 30px;
+    margin-top: 20px;
+    color: white;
+}
+.lai_dz_btn3{
+    background-color: white;
+    border: 0px;
+    background:url("../css/images/liu_icon88.png") no-repeat;
+    background-position: 3px;
+    width: 50px;
+    color: #37ace2;
+    margin-top: 35px;
+    margin-left: 10px;
+    text-align: right;
+    height: 30px;
+}
+
+/*民主评测*/
+
+.lai_select2{
+    width: 100px;
+    padding: 0 10px;
+    border: 1px solid #bfbfbf;
+    border-radius: 5px;
+}
+.pc_teb td{
+    text-align: center ;
+}
+.lai_bg_blue{
+    background-color:#37ace2 !important; ;
+}
+.pc_teb tr td{
+    line-height: 24px !important;
+    height: auto !important;
+    padding: 10px;
+}
+.lai_pf_title label{
+    margin-right: 10px;
+}
+.lai_grey_tab td{
+    background-color:#ededed ;
+    height: 20px !important;
+    line-height: 20px !important;
+    padding: 5px;
+}
+.bg_white{
+    background-color: #ffffff !important;
+}
+.cp_manu1{
+    height: 30px;
+    background-color:#e4e4e4 ;
+    border: 1px solid #bfbfbf;
+    text-align: center;
+    line-height: 30px;
+}
+.cp_manu1 img{
+    margin-left: 10px;
+}
+.hide{
+    display: none;
+}
+
+/*出差审批打印*/
+
+.tit_wei{
+    font-weight: bold;
+    font-size: 18px;
+}
+.clear{
+    clear: both;
+}
+
+.mp_pr_tab2 tr td{
+     text-align: left;
+    padding-left: 20px;
+}
+
+/*主数据管�?*/
+
+.lai_dz_btn4{
+    background-color: white;
+    border: 0px;
+    background:url("../css/images/icon_daoru.png") no-repeat;
+    background-position: 3px;
+    width: 50px;
+    color: #37ace2;
+    margin-top: 35px;
+    margin-left: 10px;
+    text-align: right;
+    height: 30px;
+}
+.lai_dz_btn5{
+    background-color: white;
+    border: 0px;
+    background:url("../css/images/icon_daochu.png") no-repeat;
+    background-position: 3px;
+    width: 50px;
+    color: #37ace2;
+    margin-top: 35px;
+    margin-left: 10px;
+    text-align: right;
+    height: 30px;
+}
+.lai_dz_btn6{
+    background-color: white;
+    border: 0px;
+    background:url("../css/images/icon_del_n.png") no-repeat;
+    background-position: 3px;
+    width: 50px;
+    color: #bfbfbf;
+    margin-top: 35px;
+    margin-left: 10px;
+    text-align: right;
+    height: 30px;
+}
+.blue_font{
+    color:#039be5;
+}
+.nowap{
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    width: 225px;
+}
+.yuti_tab tr td {
+    padding: 0 5px !important;
+}
+.pipei_tab {
+    padding: 10px 0;
+}
+.pipei_tab table{
+    width: 100%;
+}
+.pipei_tab table tr td {
+    background-color: white;
+    border:1px solid #bfbfbf;
+    height: 40px;
+    padding: 0 5px;
+    text-align: center;
+}
+
+ .lai_dd_po a button{
+ 	line-height:35px;
+ }

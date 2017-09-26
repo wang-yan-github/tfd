@@ -1,0 +1,39 @@
+.well.with-footer {
+    padding-bottom: 0px;
+}
+.well.with-header {
+    padding-top: 45px;
+}
+.well {
+    background-clip: padding-box;
+    background-color: #fbfbfb;
+    border: 0 none;
+    border-radius: 0px;
+    box-shadow: 0 0 3px rgba(0, 0, 0, 0.2);
+    color: #262626;
+    margin-bottom: 30px;
+    min-height: 0;
+    position: relative;
+    padding-left:0px;
+    padding-right:0px;
+}
+.well .header[class*="bg-"] {
+    border-bottom: 0 none;
+    color: #fff;
+}
+.well .header {
+    border-bottom: 1px solid #e5e5e5;
+    border-radius: 0px 0px 0 0;
+    left: 0;
+    padding: 10px;
+    position: absolute;
+    right: 0;
+    text-align: left;
+    top: 0;
+}
+.bg-warning {
+    background-color: #0078A5 !important;
+}
+.bg-warning {
+    background-color: #fcf8e3;
+}

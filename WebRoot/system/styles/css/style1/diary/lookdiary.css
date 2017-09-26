@@ -1,0 +1,121 @@
+.footdiv{
+	line-height: 100px;
+}
+
+#left{
+width:75%;
+float: left;
+margin-left: 2%;
+margin-top: 55px;
+}
+.remind{
+	float: left;
+	margin-top: 15px;
+}
+.titleName{
+float: left;
+font-weight: bold;
+}
+.titleName a:HOVER{
+color: #000;
+}
+.diaryDatetime{
+float:right;
+color:#000;
+font-size: 14px;
+}
+.title{
+text-align: center;
+font-size: 12px;
+}
+#time {
+	text-align: center;
+	width: 100%;
+	height: 35px;
+	display: none;
+	background-color:#FFFFFF;
+}
+.presenttime{
+padding:0px 0px;
+font-weight:bold;
+width: 120px;
+margin-left: 25%;
+margin-top: 3px;
+}
+.presenttime a{
+color: #D3D3D3;
+}
+.presenttime a:LINK {
+	font-size:18px;
+	font-weight:bold;	
+	text-decoration: none;
+	color: #D3D3D3;
+}
+.presenttime a:HOVER {
+	color: #A7A7A7;
+}
+#right{
+	position:fixed;
+	top:65px;
+	right:5px;
+	width:20%;	
+}
+.commtable{
+display:none;
+}
+.diarycomments{
+width:96%;
+margin-left:2%;
+}
+.presentstaff{
+font-weight:bold;
+border: 1px solid #95B8E7;
+width: 200px;
+margin-left:5px;
+margin-bottom:5px;
+padding-top:0px;
+}
+.presentstaff a{
+color: #D3D3D3;
+}
+.presentstaff a:LINK {
+	font-size:20px;
+	font-weight:bold;	
+	text-decoration: none;
+	color: #D3D3D3;
+}
+.presentstaff a:HOVER {
+	color: #A7A7A7;
+}
+#btnclick{
+float:right;
+margin-right:2%;
+margin-top:5px;
+}
+.lookstaff{
+display: none;
+line-height: 25px;
+margin-left: 2%;
+}
+.table a:HOVER{
+color: #000;
+}
+ a:link{text-decoration:none;} 
+ a:visited{text-decoration:none;} 
+ .diarycontent{
+ width: 100%;
+ }
+ *{
+ word-break:break-all;
+ word-wrap: break-word;
+ }
+ .good-ok-div,.good-div{
+background:url('25-32.png');
+background-repeat:no-repeat;
+height:18px;
+width:24px;
+float: left;
+margin-right: 5px;
+}
+.good-div{background-position:-360px -173px;}
+.good-ok-div{background-position:-360px -148px;}

@@ -1,0 +1,14 @@
+{
+    "msgs": [
+        {
+            "alert": "",
+            "msg_type": "msg",
+            "content": "我不管谁管",
+            "pm_id": 1644,
+            "to_terminal_id": "imtest2",
+            "from_terminal_id": "imtest1",
+            "created": "2016-01-26 04:58:06"
+        }
+    ],
+    "ret": 0
+}
